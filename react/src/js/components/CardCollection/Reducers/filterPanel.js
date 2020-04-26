@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import * as helpers from './filterGroupsHelpers';
+import helpers from './filterGroupsHelpers';
 
 export const filterGroups = (state = [], action) => {
     const newState = state.slice();

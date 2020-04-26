@@ -1,6 +1,6 @@
 import sinon from 'sinon';
 import * as filterPanel from '../filterPanel';
-import * as helpers from '../filterGroupsHelpers';
+import helpers from '../filterGroupsHelpers';
 
 describe('filterPanel reducers', () => {
     describe('getNameId', () => {
