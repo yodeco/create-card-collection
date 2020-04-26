@@ -20,7 +20,7 @@ export const pagination = (state = defaultState, action) => {
 
     switch (action.type) {
         case 'INCREMENT_PAGE':
-            if (exports.canIncrementPage(state.currentPage, state.numberOfPages)) {
+            if (canIncrementPage(state.currentPage, state.numberOfPages)) {
                 newState.currentPage = state.currentPage + 1;
                 return newState;
             }
@@ -28,7 +28,7 @@ export const pagination = (state = defaultState, action) => {
 
 
         case 'DECREMENT_PAGE':
-            if (exports.canDecrementPage(state.currentPage, state.numberOfPages)) {
+            if (canDecrementPage(state.currentPage, state.numberOfPages)) {
                 newState.currentPage = state.currentPage - 1;
                 return newState;
             }
@@ -44,7 +44,7 @@ export const pagination = (state = defaultState, action) => {
             return newState;
 
         case 'SET_CURRENT_PAGE':
-            if (exports.canChangeToPage(action.currentPage, state.numberOfPages)) {
+            if (canChangeToPage(action.currentPage, state.numberOfPages)) {
                 newState.currentPage = action.currentPage;
                 return newState;
             }
