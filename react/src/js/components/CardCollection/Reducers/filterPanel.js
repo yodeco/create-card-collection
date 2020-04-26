@@ -9,7 +9,7 @@ export function getNameId(title) {
 }
 
 export function getParentId(title) {
-    return `tag-List_Group-${exports.getNameId(title)}`;
+    return `tag-List_Group-${getNameId(title)}`;
 }
 
 /**
@@ -34,7 +34,7 @@ export function setFilterItems(tagGroups) {
             obj.category = tagGroups[keyName].title;
             obj.index = counter;
 
-            obj.parentId = exports.getParentId(obj.category);
+            obj.parentId = getParentId(obj.category);
 
             returnValue.push(obj);
             counter += 1;
@@ -145,13 +145,13 @@ export const filterItems = (state = [], action) => {
 
     switch (action.type) {
         case 'SET_FILTER_ITEMS':
-            return exports.setFilterItems(action.tags);
+            return setFilterItems(action.tags);
         case 'REMOVE_ALL_FILTERS':
-            return exports.removeAllFilters(newState);
+            return removeAllFilters(newState);
         case 'REMOVE_FILTER':
-            return exports.removeFilter(newState, action.id);
+            return removeFilter(newState, action.id);
         case 'ADD_FILTER':
-            return exports.addFilter(newState, action.id);
+            return addFilter(newState, action.id);
         default:
             return state;
     }
@@ -162,13 +162,13 @@ export const filterGroups = (state = [], action) => {
 
     switch (action.type) {
         case 'SET_FILTER_GROUPS':
-            return exports.setFilterGroups(action.tags);
+            return setFilterGroups(action.tags);
         case 'TOGGLE_FILTER_GROUP':
-            return exports.toggleFilterGroup(newState, action.id);
+            return toggleFilterGroup(newState, action.id);
         case 'OPEN_FILTER_GROUP':
-            return exports.openFilterGroup(newState, action.id);
+            return openFilterGroup(newState, action.id);
         case 'CLOSE_FILTER_GROUP':
-            return exports.closeFilterGroup(newState, action.id);
+            return closeFilterGroup(newState, action.id);
         default:
             return state;
     }
@@ -181,7 +181,7 @@ export function setTags(tags) {
 export const tags = (state = [], action) => {
     switch (action.type) {
         case 'SET_TAGS':
-            return exports.setTags(action.tags);
+            return setTags(action.tags);
         default:
             return state;
     }
