@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Standard Card Tests Whenever the standard card is passed in all empty strings for props all props correctly set to the empty string (and false) in the outputted HTML 1`] = `
+<div
+  className="card card_standard"
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <a
+      className="card_hero"
+      href=""
+    >
+      <If
+        condition={false}
+      >
+        <Then>
+          <videoButton
+            name=""
+            videoPolicy=""
+            videoUrl=""
+          />
+        </Then>
+      </If>
+    </a>
+    <If
+      condition={false}
+    >
+      <Then>
+        <div
+          className="tag_label"
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+        >
+          <a
+            href=""
+          />
+        </div>
+      </Then>
+    </If>
+  </div>
+  <div
+    className="card_bg"
+    style={
+      Object {
+        "backgroundColor": "",
+      }
+    }
+  >
+    <h2
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    >
+      <a
+        href=""
+      />
+    </h2>
+    <h4
+      className="card_author"
+    />
+  </div>
+</div>
+`;
+
+exports[`Standard Card Tests Whenever the standard card is passed in all empty strings for props all props correctly set to the empty string (and true) in the outputted HTML 1`] = `
+<div
+  className="card card_standard"
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <a
+      className="card_hero"
+      href=""
+    >
+      <If
+        condition={true}
+      >
+        <Then>
+          <videoButton
+            name=""
+            videoPolicy=""
+            videoUrl=""
+          />
+        </Then>
+      </If>
+    </a>
+    <If
+      condition={true}
+    >
+      <Then>
+        <div
+          className="tag_label"
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+        >
+          <a
+            href=""
+          />
+        </div>
+      </Then>
+    </If>
+  </div>
+  <div
+    className="card_bg"
+    style={
+      Object {
+        "backgroundColor": "",
+      }
+    }
+  >
+    <h2
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    >
+      <a
+        href=""
+      />
+    </h2>
+    <h4
+      className="card_author"
+    />
+  </div>
+</div>
+`;
+
+exports[`Standard Card Tests Whenever the standard card is passed in the correct flags for the tag label to show The tag label button will render with the correct props 1`] = `
+<div
+  className="card card_standard"
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <a
+      className="card_hero"
+      href=""
+    >
+      <If
+        condition={false}
+      >
+        <Then>
+          <videoButton
+            name=""
+            videoPolicy=""
+            videoUrl=""
+          />
+        </Then>
+      </If>
+    </a>
+    <If
+      condition={true}
+    >
+      <Then>
+        <div
+          className="tag_label"
+          style={
+            Object {
+              "backgroundColor": "#bb121a",
+            }
+          }
+        >
+          <a
+            href="http://localhost:4502/content/www/us/en/insights/media-entertainment.html"
+          >
+            Media & Entertainment
+          </a>
+        </div>
+      </Then>
+    </If>
+  </div>
+  <div
+    className="card_bg"
+    style={
+      Object {
+        "backgroundColor": "",
+      }
+    }
+  >
+    <h2
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    >
+      <a
+        href=""
+      />
+    </h2>
+    <h4
+      className="card_author"
+    />
+  </div>
+</div>
+`;
+
+exports[`Standard Card Tests Whenever the standard card is passed in the correct flags for the video button The video button will render with the correct props 1`] = `
+<div
+  className="card card_standard"
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundSize": "cover",
+      }
+    }
+  >
+    <a
+      className="card_hero"
+      href=""
+    >
+      <If
+        condition={true}
+      >
+        <Then>
+          <videoButton
+            name="customer-experience-24-hour-fitness"
+            videoPolicy="autoplay; fullscreen"
+            videoUrl="https://video.tv.adobe.com/v/22288?autoplay=true&quality=9"
+          />
+        </Then>
+      </If>
+    </a>
+    <If
+      condition={false}
+    >
+      <Then>
+        <div
+          className="tag_label"
+          style={
+            Object {
+              "backgroundColor": "",
+            }
+          }
+        >
+          <a
+            href=""
+          />
+        </div>
+      </Then>
+    </If>
+  </div>
+  <div
+    className="card_bg"
+    style={
+      Object {
+        "backgroundColor": "",
+      }
+    }
+  >
+    <h2
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    >
+      <a
+        href=""
+      />
+    </h2>
+    <h4
+      className="card_author"
+    />
+  </div>
+</div>
+`;

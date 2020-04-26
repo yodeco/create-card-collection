@@ -1,0 +1,1351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Card Tests Testing the wide card functionality When the width of the card is 1 The wide class is NOT added to the parent div 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests Testing the wide card functionality When the width of the card is 2 The wide class is added to the parent div 1`] = `
+<div
+  className="card card_static wide"
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests Testing the wide card functionality When the width of the card is 3 The wide class is NOT added to the parent div, because this is an unsupported feature 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests Testing the wide card functionality When the width of the card is null This fails an equality check and the wide class is NOT added to the parent div 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The background color is set to A hexadecimal value The containing div uses this background color 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "#D83790",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The description color is set to A hexadecimal value The p tag uses this background color 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "#D83790",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The description is set to A long Japanese string The p tag is populated with this long Japanese string 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The description is set to A long string The p tag is populated with this long string 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The icon path is set to A path to an JPG The img src is updated to point to this 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src="/content/dam/www/us/en/insights/15-mind-blowing-stats-about-the-future-of-advertising/future_of_advertising_marquee_1440x600.jpg"
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The icon path is set to An empty string The img src the image source attribute is not written out 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The image alt text is set to A long Japanese string The image alt tag is populated with this long Japanese string 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt="ここからAdobe IDでログインしてお問い合わせ内容を選択すると、チャットや電話サポートへご案内します"
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The image alt text is set to A long string The image alt tag is populated with this long string 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt="Here we explore what it takes to make experience your business. It’s more than technology. It’s vision and imagination. Strategy and guts. And in these articles we dig into all. Enjoy."
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The title color is set to A hexadecimal value The h1 uses this background color 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "#D83790",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The title is set to A Japanese String The h1 is populated with the Japanese String 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests The title is set to Insights The h1 is populated with insights 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image horizontal alignment  To center the horizontal alignment is set to the center 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "center 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image horizontal alignment  To left the horizontal alignment is set to the left 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "left 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image horizontal alignment  To right the horizontal alignment is set to the right 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "right 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image size is set  To a custom size the background size is set to that custom size 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "1000",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image size is set  To contain the background size is set to contain 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "contain",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image size is set  To cover the background size is set to cover 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "cover",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image vertical alignment  To bottom the vertical alignment is set to the bottom 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% bottom",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image vertical alignment  To middle the vertical alignment is set to the center 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% center",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background image vertical alignment  To top the vertical alignment is set to the top 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% top",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the background url is set  To an actual image path the background url is populated with that url path 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url(/content/dam/www/us/en/adobeio/apis/creative-cloud/photoshop/PS-serverless-340%20X%20180px.jpg)",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the content vertical alignment is set  To bottom justify content is set to flex-end 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the content vertical alignment is set  To default justify content is set to stretch 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "stretch",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the content vertical alignment is set  To middle justify content is set to center 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the content vertical alignment is set  To top justify content is set to flex-start 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Title Card Tests When the title card is passed in all empty strings for props all props correctly set to the empty string in the outputted HTML 1`] = `
+<div
+  className="card card_static "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img card_bg"
+    style={
+      Object {
+        "backgroundImage": "url()",
+        "backgroundPosition": " ",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <img
+      alt=""
+      className="card_icon"
+      src=""
+    />
+    <h1
+      className="card_title"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+    <p
+      className="card_description"
+      style={
+        Object {
+          "color": "",
+        }
+      }
+    />
+  </div>
+</div>
+`;

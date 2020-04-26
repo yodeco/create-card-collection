@@ -1,0 +1,1796 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Featured Card Card Tests Testing the wide card functionality When the width of the card is 1 The wide class is NOT added to the parent div 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests Testing the wide card functionality When the width of the card is 2 The wide class is added to the parent div 1`] = `
+<div
+  className="card card_featured wide"
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests Testing the wide card functionality When the width of the card is 3 The wide class is NOT added to the parent div, because this is an unsupported feature 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests Testing the wide card functionality When the width of the card is null This fails an equality check and the wide class is NOT added to the parent div 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests The background color is set to A hexadecimal value The containing div uses this background color 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "#D83790",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "#D83790",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests The description color is set to A hexadecimal value The p tag uses this background color 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "#D83790",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests The description is set to A long Japanese string The p tag is populated with this long Japanese string 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={true}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        >
+          AIが次のデジタルエンタープライズトランスフォーメーションにどのように貢献しているかについて、エキスパートと会話してください。
+        </p>
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests The description is set to A long string The p tag is populated with this long string 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={true}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        >
+          Join the conversation with experts on how AI is fueling the next digital enterprise transformation.
+        </p>
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests The title color is set to A hexadecimal value The h2 uses this background color 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "#D83790",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests The title is set to A Japanese String The anchor is populated with the Japanese String 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            >
+              Think Tank：エンタープライズにおけるAIの未来
+            </a>
+          </Then>
+        </If>
+        <Else>
+          Think Tank：エンタープライズにおけるAIの未来
+        </Else>
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests The title is set to Think Tank The anchor is populated with insights 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            >
+              Think Tank: The Future of AI in the Enterprise
+            </a>
+          </Then>
+        </If>
+        <Else>
+          Think Tank: The Future of AI in the Enterprise
+        </Else>
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the CTA Link is set  To An Adobe Link the anchor tag should point to that link 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href="http://www.adobethinktank.com/"
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the CTA Text is set  To Subscribe the anchor tag should be updated accordingly 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          >
+            Subscribe
+          </a>
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the background image size is set  To cover the background size is set to cover 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "cover",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the background url is set  To an actual image path the background url is populated with that url path 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url(/content/dam/www/us/en/adobeio/apis/creative-cloud/photoshop/PS-serverless-340%20X%20180px.jpg)",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the content horizontal alignment is set  To center justify content is set to center 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the content horizontal alignment is set  To left justify content is set to flex-start 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the content horizontal alignment is set  To right justify content is set to flex-end 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the content vertical alignment is set  To bottom align items is set to flex-end 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the content vertical alignment is set  To middle align items is set to center 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the content vertical alignment is set  To top align items is set to flex-start 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": "50% 50%",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the featured card is passed in all empty strings for props all props correctly set to the empty string in the outputted HTML 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": " ",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the featured card is passed in all empty strings for props, but has a flag to show a CTA the CTA is shown 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": " ",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        />
+      </If>
+      <If
+        condition={true}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href="http://www.adobethinktank.com"
+          >
+            Watch Now
+          </a>
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the featured card is passed in all empty strings for props, but has a flag to show an Article Description the Article Description is shown 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": " ",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={false}
+        >
+          <Then>
+            <a
+              href=""
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={true}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        >
+          Join the conversation with experts on how AI is fueling the next digital enterprise transformation.
+        </p>
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Featured Card Card Tests When the featured card is passed in all empty strings for props, but has a flag to show an Article Url the Article Url is shown 1`] = `
+<div
+  className="card card_featured "
+  style={
+    Object {
+      "backgroundColor": "",
+    }
+  }
+>
+  <div
+    className="card_img"
+    style={
+      Object {
+        "alignItems": "",
+        "backgroundColor": "",
+        "backgroundImage": "url()",
+        "backgroundPosition": " ",
+        "backgroundSize": "",
+        "justifyContent": "",
+      }
+    }
+  >
+    <div
+      className="card_bg"
+    >
+      <h2
+        className="card_title"
+        style={
+          Object {
+            "color": "",
+          }
+        }
+      >
+        <If
+          condition={true}
+        >
+          <Then>
+            <a
+              href="https://www-author.dev02.corp.adobe.com/content/www/us/en/insights/3-ways-to-solve-disruption-in-fsi.html"
+            />
+          </Then>
+        </If>
+        <Else />
+      </h2>
+      <If
+        condition={false}
+      >
+        <p
+          className="card_description"
+          style={
+            Object {
+              "color": "",
+            }
+          }
+        >
+          Join the conversation with experts on how AI is fueling the next digital enterprise transformation.
+        </p>
+      </If>
+      <If
+        condition={false}
+      >
+        <div>
+          <a
+            className="spectrum-Button spectrum-Button--cta"
+            href=""
+          />
+        </div>
+      </If>
+    </div>
+  </div>
+</div>
+`;
