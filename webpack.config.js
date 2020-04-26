@@ -21,16 +21,7 @@ module.exports = {
                         plugins: ['transform-class-properties', 'transform-object-rest-spread'],
                     },
                 },
-            },
-            {
-                test: /\.jsx?$/,
-                exclude: /(node_modules|bower_components|.*torq.*$)/,
-                enforce: 'pre',
-                loader: 'eslint-loader',
-                options: {
-                    failOnError: true,
-                },
-            },
+            }
         ],
     },
     devtool: 'cheap-eval-source-map',
