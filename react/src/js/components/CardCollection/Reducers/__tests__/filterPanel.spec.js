@@ -1,8 +1,6 @@
 import sinon from 'sinon';
 import * as filterPanel from '../filterPanel';
-import { openFilterGroup } from '../filterPanel';
-import { closeFilterGroup } from '../filterPanel';
-import { filterItems } from '../filterPanel';
+import helpers from '../filterGroupsHelpers';
 
 describe('filterPanel reducers', () => {
     describe('getNameId', () => {
@@ -14,7 +12,7 @@ describe('filterPanel reducers', () => {
             ];
 
             testInputs.forEach((input) => {
-                expect(filterPanel.getNameId(input)).toEqual(input.toLowerCase());
+                expect(helpers.getNameId(input)).toEqual(input.toLowerCase());
             });
         });
 
@@ -32,7 +30,7 @@ describe('filterPanel reducers', () => {
             ];
 
             testInputs.forEach((input, i) => {
-                expect(filterPanel.getNameId(input)).toEqual(results[i]);
+                expect(helpers.getNameId(input)).toEqual(results[i]);
             });
         });
     });
@@ -41,7 +39,7 @@ describe('filterPanel reducers', () => {
         let spy;
 
         beforeEach(() => {
-            spy = sinon.spy(filterPanel, 'getNameId');
+            spy = sinon.spy(helpers, 'getNameId');
         });
 
         afterEach(() => {
@@ -49,12 +47,12 @@ describe('filterPanel reducers', () => {
         });
 
         it('calls getNameId with the title parameter', () => {
-            filterPanel.getParentId('something');
+            helpers.getParentId('something');
             expect(spy.calledOnce).toBe(true);
         });
 
         it('appends the text tag-List_Group- to the result of getNameId', () => {
-            const result = filterPanel.getParentId('something');
+            const result = helpers.getParentId('something');
             expect(result).toEqual('tag-List_Group-something');
         });
     });
@@ -94,14 +92,14 @@ describe('filterPanel reducers', () => {
                 },
             };
 
-            expect(filterPanel.setFilterItems(input)).toEqual([
+            expect(helpers.setFilterItems(input)).toEqual([
                 {
                     title: 'title1',
                     id: 1,
                     checked: false,
                     category: 'group1',
                     index: 0,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
                 {
                     title: 'title2',
@@ -109,7 +107,7 @@ describe('filterPanel reducers', () => {
                     checked: false,
                     category: 'group1',
                     index: 1,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
                 {
                     title: 'title3',
@@ -117,7 +115,7 @@ describe('filterPanel reducers', () => {
                     checked: false,
                     category: 'group2',
                     index: 2,
-                    parentId: filterPanel.getParentId('group2'),
+                    parentId: helpers.getParentId('group2'),
                 },
                 {
                     title: 'title4',
@@ -125,7 +123,7 @@ describe('filterPanel reducers', () => {
                     checked: false,
                     category: 'group2',
                     index: 3,
-                    parentId: filterPanel.getParentId('group2'),
+                    parentId: helpers.getParentId('group2'),
                 },
             ]);
         });
@@ -144,7 +142,7 @@ describe('filterPanel reducers', () => {
                 },
             };
 
-            expect(filterPanel.setFilterGroups(input)).toEqual([
+            expect(helpers.setFilterGroups(input)).toEqual([
                 {
                     category: 'group1',
                     id: 1,
@@ -174,7 +172,7 @@ describe('filterPanel reducers', () => {
                 },
             ];
 
-            const result = filterPanel.toggleFilterGroup(input, 1);
+            const result = helpers.toggleFilterGroup(input, 1);
             expect(result).toEqual([
                 {
                     category: 'group1',
@@ -188,7 +186,7 @@ describe('filterPanel reducers', () => {
                 },
             ]);
 
-            expect(filterPanel.toggleFilterGroup(result, 1)).toEqual(input);
+            expect(helpers.toggleFilterGroup(result, 1)).toEqual(input);
         });
     });
 
@@ -207,7 +205,7 @@ describe('filterPanel reducers', () => {
                 },
             ];
 
-            expect(filterPanel.openFilterGroup(input, 1)).toEqual([
+            expect(helpers.openFilterGroup(input, 1)).toEqual([
                 {
                     category: 'group1',
                     id: 0,
@@ -237,7 +235,7 @@ describe('filterPanel reducers', () => {
                 },
             ];
 
-            expect(filterPanel.closeFilterGroup(input, 1)).toEqual([
+            expect(helpers.closeFilterGroup(input, 1)).toEqual([
                 {
                     category: 'group1',
                     id: 0,
@@ -261,7 +259,7 @@ describe('filterPanel reducers', () => {
                     checked: false,
                     category: 'group1',
                     index: 0,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
                 {
                     title: 'title2',
@@ -269,18 +267,18 @@ describe('filterPanel reducers', () => {
                     checked: true,
                     category: 'group1',
                     index: 1,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
             ];
 
-            expect(filterPanel.removeFilter(input, 2)).toEqual([
+            expect(helpers.removeFilter(input, 2)).toEqual([
                 {
                     title: 'title1',
                     id: 1,
                     checked: false,
                     category: 'group1',
                     index: 0,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
                 {
                     title: 'title2',
@@ -288,7 +286,7 @@ describe('filterPanel reducers', () => {
                     checked: false,
                     category: 'group1',
                     index: 1,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
             ]);
         });
@@ -303,7 +301,7 @@ describe('filterPanel reducers', () => {
                     checked: true,
                     category: 'group1',
                     index: 0,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
                 {
                     title: 'title2',
@@ -311,18 +309,18 @@ describe('filterPanel reducers', () => {
                     checked: true,
                     category: 'group1',
                     index: 1,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
             ];
 
-            expect(filterPanel.removeAllFilters(input)).toEqual([
+            expect(helpers.removeAllFilters(input)).toEqual([
                 {
                     title: 'title1',
                     id: 1,
                     checked: false,
                     category: 'group1',
                     index: 0,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
                 {
                     title: 'title2',
@@ -330,7 +328,7 @@ describe('filterPanel reducers', () => {
                     checked: false,
                     category: 'group1',
                     index: 1,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
             ]);
         });
@@ -345,7 +343,7 @@ describe('filterPanel reducers', () => {
                     checked: false,
                     category: 'group1',
                     index: 0,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
                 {
                     title: 'title2',
@@ -353,18 +351,18 @@ describe('filterPanel reducers', () => {
                     checked: false,
                     category: 'group1',
                     index: 1,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
             ];
 
-            expect(filterPanel.addFilter(input, 2)).toEqual([
+            expect(helpers.addFilter(input, 2)).toEqual([
                 {
                     title: 'title1',
                     id: 1,
                     checked: false,
                     category: 'group1',
                     index: 0,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
                 {
                     title: 'title2',
@@ -372,7 +370,7 @@ describe('filterPanel reducers', () => {
                     checked: true,
                     category: 'group1',
                     index: 1,
-                    parentId: filterPanel.getParentId('group1'),
+                    parentId: helpers.getParentId('group1'),
                 },
             ]);
         });
@@ -380,64 +378,64 @@ describe('filterPanel reducers', () => {
 
     describe('setTags', () => {
         it('returns its argument', () => {
-            expect(filterPanel.setTags(2)).toBe(2);
+            expect(helpers.setTags(2)).toBe(2);
         });
     });
 
     describe('filterItems', () => {
         beforeEach(() => {
-            sinon.spy(filterPanel, 'setFilterItems');
-            sinon.spy(filterPanel, 'removeAllFilters');
-            sinon.spy(filterPanel, 'removeFilter');
-            sinon.spy(filterPanel, 'addFilter');
+            sinon.spy(helpers, 'setFilterItems');
+            sinon.spy(helpers, 'removeAllFilters');
+            sinon.spy(helpers, 'removeFilter');
+            sinon.spy(helpers, 'addFilter');
         });
 
         afterEach(() => {
-            filterPanel.setFilterItems.restore();
-            filterPanel.removeAllFilters.restore();
-            filterPanel.removeFilter.restore();
-            filterPanel.addFilter.restore();
+            helpers.setFilterItems.restore();
+            helpers.removeAllFilters.restore();
+            helpers.removeFilter.restore();
+            helpers.addFilter.restore();
         });
 
         it('calls setFilterItems on setFilterGroups action type SET_FILTER_ITEMS', () => {
             filterPanel.filterItems([], { type: 'SET_FILTER_ITEMS', tags: {} });
-            expect(filterPanel.setFilterItems.calledOnce).toBe(true);
+            expect(helpers.setFilterItems.calledOnce).toBe(true);
         });
 
         it('calls removeAllFilters on action type REMOVE_ALL_FILTERS', () => {
             filterPanel.filterItems([], { type: 'REMOVE_ALL_FILTERS' });
-            expect(filterPanel.removeAllFilters.calledOnce).toBe(true);
+            expect(helpers.removeAllFilters.calledOnce).toBe(true);
         });
 
         it('calls removeFilter on action type REMOVE_FILTER', () => {
             filterPanel.filterItems([], { type: 'REMOVE_FILTER' });
-            expect(filterPanel.removeFilter.calledOnce).toBe(true);
+            expect(helpers.removeFilter.calledOnce).toBe(true);
         });
 
         it('calls addFilter on action type ADD_FILTER', () => {
             filterPanel.filterItems([], { type: 'ADD_FILTER' });
-            expect(filterPanel.addFilter.calledOnce).toBe(true);
+            expect(helpers.addFilter.calledOnce).toBe(true);
         });
     });
 
     describe('filterGroups', () => {
         beforeEach(() => {
-            sinon.spy(filterPanel, 'setFilterGroups');
-            sinon.spy(filterPanel, 'toggleFilterGroup');
-            sinon.spy(filterPanel, 'openFilterGroup');
-            sinon.spy(filterPanel, 'closeFilterGroup');
+            sinon.spy(helpers, 'setFilterGroups');
+            sinon.spy(helpers, 'toggleFilterGroup');
+            sinon.spy(helpers, 'openFilterGroup');
+            sinon.spy(helpers, 'closeFilterGroup');
         });
 
         afterEach(() => {
-            filterPanel.setFilterGroups.restore();
-            filterPanel.toggleFilterGroup.restore();
-            filterPanel.openFilterGroup.restore();
-            filterPanel.closeFilterGroup.restore();
+            helpers.setFilterGroups.restore();
+            helpers.toggleFilterGroup.restore();
+            helpers.openFilterGroup.restore();
+            helpers.closeFilterGroup.restore();
         });
 
         it('calls setFilterGroups on action type SET_FILTER_GROUPS', () => {
             filterPanel.filterGroups([], { type: 'SET_FILTER_GROUPS', tags: {} });
-            expect(filterPanel.setFilterGroups.calledOnce).toBe(true);
+            expect(helpers.setFilterGroups.calledOnce).toBe(true);
         });
 
         it('calls toggleFilterGroup on action type TOGGLE_FILTER_GROUP', () => {
@@ -446,7 +444,7 @@ describe('filterPanel reducers', () => {
                 id: 0,
                 isOpen: false,
             }], { type: 'TOGGLE_FILTER_GROUP', id: 0 });
-            expect(filterPanel.toggleFilterGroup.calledOnce).toBe(true);
+            expect(helpers.toggleFilterGroup.calledOnce).toBe(true);
         });
 
         it('calls openFilterGroup on action type OPEN_FILTER_GROUP', () => {
@@ -455,7 +453,7 @@ describe('filterPanel reducers', () => {
                 id: 0,
                 isOpen: false,
             }], { type: 'OPEN_FILTER_GROUP', id: 0 });
-            expect(filterPanel.openFilterGroup.calledOnce).toBe(true);
+            expect(helpers.openFilterGroup.calledOnce).toBe(true);
         });
 
         it('calls closeFilterGroup on action type CLOSE_FILTER_GROUP', () => {
@@ -464,16 +462,16 @@ describe('filterPanel reducers', () => {
                 id: 0,
                 isOpen: false,
             }], { type: 'CLOSE_FILTER_GROUP', id: 0 });
-            expect(filterPanel.closeFilterGroup.calledOnce).toBe(true);
+            expect(helpers.closeFilterGroup.calledOnce).toBe(true);
         });
     });
 
     describe('tags', () => {
         it('calls setTags on action type SET_TAGS', () => {
-            sinon.spy(filterPanel, 'setTags');
+            sinon.spy(helpers, 'setTags');
             filterPanel.tags([], { type: 'SET_TAGS', tags: null });
-            expect(filterPanel.setTags.calledOnce).toBe(true);
-            filterPanel.setTags.restore();
+            expect(helpers.setTags.calledOnce).toBe(true);
+            helpers.setTags.restore();
         });
     });
 });
