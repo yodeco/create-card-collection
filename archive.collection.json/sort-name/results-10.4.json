@@ -1,336 +1,227 @@
 {
-  "page":4,
+  "page":1,
   "totalPages":16,
   "totalResults":154,
   "sort":"name",
   "cards":[
     {
-      "page":"/content/www/us/en/insights/ai-powered-personalization",
+      "page":"/content/www/us/en/cloud/descended-from-astronomers-rock",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/ai-powered-personalization.jpg",
-      "imageAlt":"ai-powered personalization",
-      "primaryTagId":"insights:collections/digital-transformation",
+      "background":"/content/dam/www/us/en/cloud/descended-from-astronomers-rock.jpg",
+      "imageAlt":"Descended from astronomers rock",
+      "primaryTagId":"cloud:topics/video",
       "tags":[
-        "insights:industries/fsi",
-        "insights:collections/digital-transformation"
+        "cloud:topics/video",
+        "cloud:types/how-tos"
       ],
       "article":{
-        "title":"AI powered personalization - above expectation, beyond imagination.",
+        "title":"Descended from astronomers rock",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/ai-powered-personalization.html"
+        "url":"/content/www/us/en/cloud/descended-from-astronomers-rock.html"
       }
     },
     {
-      "page":"/content/www/us/en/insights/pivotal-moment-for-artificial-intelligence",
+      "page":"/content/www/us/en/cloud/james-alonsos-design-romance",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/think-tank-video-raj-shaw.jpg",
-      "imageAlt":"Think Tank Video - Raj Shaw",
-      "primaryTagId":"insights:collections/innovation",
+      "background":"/content/dam/www/us/en/cloud/james-alonsos-design-romance.jpg",
+      "imageAlt":"Design Romance .",
+      "primaryTagId":"cloud:topics/ui-and-ux",
       "tags":[
-        "insights:collections/innovation"
+        "cloud:topics/ui-and-ux",
+        "cloud:types/inspiration"
       ],
       "article":{
-        "title":"AI Think Tank Recap: We've Reached A Pivotal Moment for AI",
+        "title":"James Alonso's Design Romance",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/pivotal-moment-for-artificial-intelligence.html"
+        "url":"/content/www/us/en/cloud/james-alonsos-design-romance.html"
       }
     },
     {
-      "page":"/content/www/us/en/insights/amplify-talent-become-experience-maker",
+      "page":"/content/www/us/en/cloud/layer-images-to-create-a-poster",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/amplify-your-talent.jpg",
-      "imageAlt":" Amplify Your Talent",
-      "primaryTagId":"insights:collections/digital-transformation",
+      "background":"/content/dam/www/us/en/cloud/layer-images-to-create-a-poster.html",
+      "imageAlt":"Which layers to use... ",
+      "primaryTagId":"cloud:topics/design",
       "tags":[
-        "insights:collections/workforce-productivity",
-        "insights:collections/digital-transformation"
+        "cloud:topics/design",
+        "cloud:types/how-to"
       ],
       "article":{
-        "title":"Amplify Your Talent.",
+        "title":"Layer Images to Create a Poster",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/amplify-talent-become-experience-maker.html"
-      },
-      "video":{
-        "url":"https://video.tv.adobe.com/v/22287/?autoplay=true&quality=9",
-        "policy":"autoplay; fullscreen"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/amplifying-human-creativity-with-artificial-intelligence",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/amplifying-human-creativity-with-artificial-intelligence-cropped.jpg",
-      "imageAlt":"Swirling rainbow",
-      "primaryTagId":"insights:collections/data-driven",
-      "tags":[
-        "insights:collections/innovation",
-        "insights:collections/data-driven"
-      ],
-      "article":{
-        "title":"Amplifying human creativity with artificial intelligence to transform digital experiences.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/amplifying-human-creativity-with-artificial-intelligence.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/authentic-customer-experiences-take-flight-at-qantas",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/authentic-customer-experiences-take-flight-at-qantas/372907.en.amc-article.marquee.3.1440x600.jpg",
-      "imageAlt":"Man standing in the airport with suitcase looking at plane taking off.",
-      "primaryTagId":"insights:industries/travel-and-hospitality",
-      "tags":[
-        "insights:collections/cross-channel",
-        "insights:industries/travel-and-hospitality"
-      ],
-      "article":{
-        "title":"At Qantas, Authentic Customer Experiences Take Flight On The Front Line.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/authentic-customer-experiences-take-flight-at-qantas.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/accelerate-content-velocity-to-meet-customer-expectation",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/Lady%20working%20with%20skyline%20in%20background.jpg",
-      "imageAlt":"Lady working with skyline",
-      "primaryTagId":"insights:collections/digital-transformation",
-      "tags":[
-        "insights:collections/workforce-productivity",
-        "insights:collections/digital-transformation"
-      ],
-      "article":{
-        "title":"Become a content speed demon: Accelerate content velocity to electrify experiences.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/accelerate-content-velocity-to-meet-customer-expectation.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/AEC-connects-digital-transformation-and-customer-experience",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/think-tank-video-raj-shaw.jpg",
-      "imageAlt":"Think Tank Video - Brad Rencher",
-      "primaryTagId":"insights:collections/digital-transformation",
-      "tags":[
-        "insights:collections/digital-transformation"
-      ],
-      "article":{
-        "title":"Brad Rencher, EVP Adobe.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/AEC-connects-digital-transformation-and-customer-experience.html"
-      },
-      "video":{
-        "url":"https://video.tv.adobe.com/v/22196t1?autoplay=true&quality=9",
-        "policy":"autoplay; fullscreen"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/use-data-to-improve-customer-experience",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/Pink_and_purple_circles.jpg",
-      "imageAlt":"Pink and purple circles",
-      "primaryTagId":"insights:collections/data-driven",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:collections/data-driven"
-      ],
-      "article":{
-        "title":"Brands Use Data to Raise the Bar on Customer Experience.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/use-data-to-improve-customer-experience.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/test-page-created",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/breathe-new-life-into-customer-journey/People%20looking%20at%20a%20tablet%20and%20surrounded%20by%20colorful%20orbs.jpg",
-      "imageAlt":"People looking at a tablet and surrounded by colorful orbs",
-      "primaryTagId":"insights:collections/data-driven",
-      "tags":[
-        "insights:collections/data-driven"
-      ],
-      "article":{
-        "title":"Breathe new life into the customer journey. ",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/test-page-created.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/breathe-new-life-into-customer-journey",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/breathe-new-life-into-customer-journey.jpg",
-      "imageAlt":"breathe-new-life-into-customer-journey",
-      "primaryTagId":"insights:collections/data-driven",
-      "tags":[
-        "insights:collections/data-driven"
-      ],
-      "article":{
-        "title":"Breathe new life into the customer journey. ",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/breathe-new-life-into-customer-journey.html"
+        "url":"/content/www/us/en/cloud/layer-images-to-create-a-poster.html"
       }
     }
   ],
   "tags":{
     "insights":{
-      "title":"Insights",
+      "title":"Design",
       "id":"insights",
       "color":"#FF4136",
       "url":"",
       "tags":{
-        "industries":{
-          "title":"Industries",
-          "id":"insights:industries",
-          "color":"#39CCCC",
-          "url":"http://localhost:4502/content/www/us/en/insights.html",
+        "topics":{
+          "title":"Topics",
+          "id":"cloud:topics",
+          "url":"/content/www/us/en/cloud/topics.html",
           "tags":{
-            "media-and-Entertainment":{
-              "title":"Media & Entertainment",
-              "id":"insights:industries/media-and-Entertainment",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/media-entertainment.html",
+            "all-topics":{
+              "title":"All topics",
+              "id":"cloud:topics/all-topics",
+              "url":"/content/www/us/en/create/topics/all-topics.html",
               "tags":{
 
               }
             },
-            "tech":{
-              "title":"Tech",
-              "id":"insights:industries/tech",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/tech.html",
+            "design":{
+              "title":"Design",
+              "id":"cloud:topics/design",
+              "url":"/content/www/us/en/create/topics/design.html",
               "tags":{
 
               }
             },
-            "B2B":{
-              "title":"B2B",
-              "id":"insights:industries/B2B",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/b2b.html",
+            "photography":{
+              "title":"Photography",
+              "id":"cloud:topics/photography",
+              "url":"/content/www/us/en/create/topics/photography.html",
               "tags":{
 
               }
             },
-            "health-care":{
-              "title":"Health Care",
-              "id":"insights:industries/health-care",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/healthcare.html",
+            "ui-and-ux":{
+              "title":"UI & UX",
+              "id":"cloud:topics/ui-and-ux",
+              "url":"/content/www/us/en/create/topics/ui-and-ux.html",
               "tags":{
 
               }
             },
-            "retail":{
-              "title":"Retail",
-              "id":"insights:industries/retail",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/retail.html",
+            "video":{
+              "title":"Video",
+              "id":"cloud:topics/video",
+              "url":"/content/www/us/en/create/topics/video.html",
               "tags":{
 
               }
             },
-            "travel-and-hospitality":{
-              "title":"Travel and hospitality",
-              "id":"insights:industries/travel-and-hospitality",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/travel-and-hospitality.html",
-              "tags":{
-
-              }
-            },
-            "fsi":{
-              "title":"FSI",
-              "id":"insights:industries/fsi",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/fsi.html",
+            "illustration":{
+              "title":"Illustration",
+              "id":"cloud:topics/illustration",
+              "url":"/content/www/us/en/create/topics/illustration.html",
               "tags":{
 
               }
             }
           }
         },
-        "collections":{
-          "title":"Collections",
-          "id":"insights:collections",
-          "color":"#7FDBFF",
-          "url":"http://localhost:4502/content/www/us/en/insights.html",
+        "types":{
+          "title":"Types",
+          "id":"cloud:types",
+          "url":"/content/www/us/en/cloud/types.html",
           "tags":{
-            "experience-design":{
-              "title":"Design",
-              "id":"insights:collections/experience-design",
-              "color":"#002f99",
-              "url":"http://localhost:4502/content/www/us/en/insights/design.html",
+            "all-types":{
+              "title":"All types",
+              "id":"cloud:types/all-types",
+              "url":"/content/www/us/en/create/types/all-types.html",
               "tags":{
 
               }
             },
-            "innovation":{
-              "title":"Innovation",
-              "id":"insights:collections/innovation",
-              "color":"#006f26",
-              "url":"http://localhost:4502/content/www/us/en/insights/innovation.html",
+            "how-tos":{
+              "title":"How-tos",
+              "id":"cloud:types/how-tos",
+              "url":"/content/www/us/en/cloud/types/how-tos.html",
               "tags":{
 
               }
             },
-            "perspectives":{
-              "title":"Perspectives",
-              "id":"insights:collections/perspectives",
-              "color":"#39CCCC",
-              "url":"http://localhost:4502/content/www/us/en/insights/perspectives.html",
+            "live-streams":{
+              "title":"Live streams",
+              "id":"cloud:types/live-streams",
+              "url":"/content/www/us/en/cloud/types/live-streams.html",
               "tags":{
 
               }
             },
-            "data-driven":{
-              "title":"Data Driven",
-              "id":"insights:collections/data-driven",
-              "color":"#550469",
-              "url":"http://localhost:4502/content/www/us/en/insights/data-driven.html",
+            "challenges":{
+              "title":"Challenges",
+              "id":"cloud:types/challenges",
+              "url":"/content/www/us/en/cloud/types/perspectives.html",
               "tags":{
 
               }
             },
-            "workforce-productivity":{
-              "title":"Workforce Productivity",
-              "id":"insights:collections/workforce-productivity",
-              "color":"#000000",
-              "url":"http://localhost:4502/content/www/us/en/insights/workforce-productivity.html",
+            "inspiration":{
+              "title":"Inspiration",
+              "id":"cloud:types/inspiration",
+              "url":"/content/www/us/en/cloud/types/inspiration.html",
               "tags":{
 
               }
             },
-            "advertising":{
-              "title":"Advertising",
-              "id":"insights:collections/advertising",
-              "color":"#e85700",
-              "url":"http://localhost:4502/content/www/us/en/insights/advertising.html",
+            "interviews":{
+              "title":"Interviews",
+              "id":"cloud:types/interviews",
+              "url":"/content/www/us/en/cloud/types/interviews.html",
               "tags":{
 
               }
             },
-            "digital-transformation":{
-              "title":"Digital Transformation",
-              "id":"insights:collections/digital-transformation",
-              "color":"#d80077",
-              "url":"http://localhost:4502/content/www/us/en/insights/digital-transformation.html",
+            "free-stuff":{
+              "title":"Free stuff",
+              "id":"cloud:types/free-stuff",
+              "url":"/content/www/us/en/cloud/types/free-stuff.html",
               "tags":{
 
               }
             },
-            "cross-channel":{
-              "title":"Cross-channel",
-              "id":"insights:collections/cross-channel",
-              "color":"#00939b",
-              "url":"http://localhost:4502/content/www/us/en/insights/cross-channel.html",
+            "jobs":{
+              "title":"Jobs",
+              "id":"cloud:types/jobs",
+              "url":"/content/www/us/en/cloud/types/jobs.html",
+              "tags":{
+
+              }
+            }
+          }
+        },
+        "skills":{
+          "title":"Skills",
+          "id":"cloud:skills",
+          "url":"/content/www/us/en/cloud/skills.html",
+          "tags":{
+            "all-skill-levels":{
+              "title":"All skill levels",
+              "id":"cloud:skills/all-skill-levels",
+              "url":"/content/www/us/en/create/skills/all-skill-levels.html",
+              "tags":{
+
+              }
+            },
+            "beginner":{
+              "title":"Beginner",
+              "id":"cloud:skills/beginner",
+              "url":"/content/www/us/en/cloud/skills/beginner.html",
+              "tags":{
+
+              }
+            },
+            "intermediate":{
+              "title":"Intermediate",
+              "id":"cloud:skills/intermediate",
+              "url":"/content/www/us/en/cloud/skills/intermediate.html",
+              "tags":{
+
+              }
+            },
+            "advanced":{
+              "title":"Advanced",
+              "id":"cloud:skills/advanced",
+              "url":"/content/www/us/en/cloud/skills/advanced.html",
               "tags":{
 
               }

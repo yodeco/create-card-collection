@@ -5,175 +5,54 @@
   "sort":"name",
   "cards":[
     {
-      "page":"/content/www/us/en/insights/15-stats-about-artificial-intelligence",
+      "page":"/content/www/us/en/cloud/descended-from-astronomers-rock",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/15-stats-about-artificial-intelligence.jpg",
-      "imageAlt":"15 Mind Blowing Stats about AI",
-      "primaryTagId":"insights:collections/innovation",
+      "background":"/content/dam/www/us/en/cloud/descended-from-astronomers-rock.jpg",
+      "imageAlt":"Descended from astronomers rock",
+      "primaryTagId":"cloud:topics/video",
       "tags":[
-        "insights:collections/data-driven",
-        "insights:collections/innovation"
+        "cloud:topics/video",
+        "cloud:types/how-tos"
       ],
       "article":{
         "title":"Descended from astronomers rock",
         "author":"",
-        "url":"/content/www/us/en/insights/15-stats-about-artificial-intelligence.html"
+        "url":"/content/www/us/en/cloud/descended-from-astronomers-rock.html"
       }
     },
     {
-      "page":"/content/www/us/en/insights/digital-trends-in-travel-and-hospitality",
+      "page":"/content/www/us/en/cloud/james-alonsos-design-romance",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/digital-trends-in-travel-and-hospitality/372907.en.amc-article.marquee.4.1440x600.jpg",
-      "imageAlt":"Young adult in the mountains holding cellphone with polygonal object surrounding them with data points.",
-      "primaryTagId":"insights:industries/travel-and-hospitality",
+      "background":"/content/dam/www/us/en/cloud/james-alonsos-design-romance.jpg",
+      "imageAlt":"Design Romance .",
+      "primaryTagId":"cloud:topics/ui-and-ux",
       "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/travel-and-hospitality"
+        "cloud:topics/ui-and-ux",
+        "cloud:types/inspiration"
       ],
       "article":{
-        "title":"Descended from astronomers rock",
+        "title":"James Alonso's Design Romance",
         "author":"",
-        "url":"/content/www/us/en/insights/digital-trends-in-travel-and-hospitality.html"
+        "url":"/content/www/us/en/cloud/james-alonsos-design-romance.html"
       }
     },
     {
-      "page":"/content/www/us/en/insights/15-stats-about-b2b-high-tech",
+      "page":"/content/www/us/en/cloud/layer-images-to-create-a-poster",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/15digital_385x265.jpg",
-      "imageAlt":"Number 15 on an orange background. ",
-      "primaryTagId":"insights:industries/tech",
+      "background":"/content/dam/www/us/en/cloud/layer-images-to-create-a-poster.html",
+      "imageAlt":"Which layers to use... ",
+      "primaryTagId":"cloud:topics/design",
       "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/tech"
+        "cloud:topics/design",
+        "cloud:types/how-to"
       ],
       "article":{
-        "title":"Extreme color grading with Jason Lavine",
+        "title":"Layer Images to Create a Poster",
         "author":"",
-        "url":"/content/www/us/en/insights/15-stats-about-b2b-high-tech.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/15-mind-blowing-stats-about-the-future-of-advertising",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/15-mind-blowing-stats-about-the-future-of-advertising-cropped.jpg",
-      "imageAlt":"Loud speaker blaring with icons and tools surrounding it",
-      "primaryTagId":"insights:collections/advertising",
-      "tags":[
-        "insights:collections/advertising"
-      ],
-      "article":{
-        "title":"Comic book illustration with Stephen Green",
-        "author":"",
-        "url":"/content/www/us/en/insights/15-mind-blowing-stats-about-the-future-of-advertising.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/2017-year-of-influencer-marketing",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/2017%20The%20Year%20of%20the%20Rooster%20Influencer.jpg",
-      "imageAlt":"City at night with fireworks. ",
-      "primaryTagId":"insights:collections/innovation",
-      "tags":[
-        "insights:collections/innovation"
-      ],
-      "article":{
-        "title":"Rachel Dell coaxes light from darkness with mixed media",
-        "author":"",
-        "url":"/content/www/us/en/insights/2017-year-of-influencer-marketing.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/customer-experience-24-hour-fitness",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/customer-experience-24-hour-fitness/Man-with-gym-bag-outside-of-a-building.jpg",
-      "imageAlt":"Man with gym bag outside of a building",
-      "primaryTagId":"insights:collections/cross-channel",
-      "tags":[
-        "insights:collections/data-driven",
-        "insights:collections/cross-channel"
-      ],
-      "article":{
-        "title":"Brand standard manuals that break the rules",
-        "author":"",
-        "url":"/content/www/us/en/insights/customer-experience-24-hour-fitness.html"
-      },
-      "video":{
-        "url":"https://video.tv.adobe.com/v/22493?autoplay=true&quality=9",
-        "policy":"autoplay; fullscreen"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/3-ways-to-solve-disruption-in-fsi",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/3-ways-to-solve-disruption-in-fsi.jpg",
-      "imageAlt":"3 Ways Successful FSIs Organize For Disruption",
-      "primaryTagId":"insights:industries/fsi",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/fsi"
-      ],
-      "article":{
-        "title":"Animated XD templates",
-        "author":"",
-        "url":"/content/www/us/en/insights/3-ways-to-solve-disruption-in-fsi.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/4-lessons-for-todays-brands-from-aston-martins-first-concept-car",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/4%20Lessons%20About%20Innovation%20From%20Aston%20Martin%e2%80%99s%20First%20Concept%20Car.jpg",
-      "imageAlt":"Picture of a car. ",
-      "primaryTagId":"insights:collections/innovation",
-      "tags":[
-        "insights:collections/perspectives",
-        "insights:collections/innovation"
-      ],
-      "article":{
-        "title":"Character brushes for Photoshop and Fresco",
-        "author":"",
-        "url":"/content/www/us/en/insights/4-lessons-for-todays-brands-from-aston-martins-first-concept-car.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/companies-that-took-web-experience-to-the-next-level",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/T-mobile_8-bit_game.jpg",
-      "imageAlt":"Cropped category image T-mobile 8-bit game",
-      "primaryTagId":"insights:industries/retail",
-      "tags":[
-        "insights:collections/innovation",
-        "insights:industries/retail"
-      ],
-      "article":{
-        "title":"5 companies that took web experience to the next level.",
-        "author":"",
-        "url":"/content/www/us/en/insights/companies-that-took-web-experience-to-the-next-level.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/5-digital-trends-for-financial-marketers",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/The%20number%205%20.png",
-      "imageAlt":"",
-      "primaryTagId":"insights:collections/advertising",
-      "tags":[
-        "insights:industries/fsi",
-        "insights:collections/advertising"
-      ],
-      "article":{
-        "title":"5 Digital Trends Financial Marketers Can\u2019t Afford To Ignore",
-        "author":"",
-        "url":"/content/www/us/en/insights/5-digital-trends-for-financial-marketers.html"
+        "url":"/content/www/us/en/cloud/layer-images-to-create-a-poster.html"
       }
     }
   ],
@@ -184,151 +63,165 @@
       "color":"#FF4136",
       "url":"",
       "tags":{
-        "industries":{
-          "title":"Industries",
-          "id":"insights:industries",
-          "color":"#39CCCC",
-          "url":"/content/www/us/en/insights.html",
+        "topics":{
+          "title":"Topics",
+          "id":"cloud:topics",
+          "url":"/content/www/us/en/cloud/topics.html",
           "tags":{
-            "design-how-to":{
-              "title":"Design / How-to",
-              "id":"insights:industries/media-and-Entertainment",
-              "color":"#bb121a",
-              "url":"/content/www/us/en/insights/media-entertainment.html",
+            "all-topics":{
+              "title":"All topics",
+              "id":"cloud:topics/all-topics",
+              "url":"/content/www/us/en/create/topics/all-topics.html",
               "tags":{
 
               }
             },
-            "photography-inspiration":{
-              "title":"Photography / Inspiration",
-              "id":"insights:industries/tech",
-              "color":"#bb121a",
-              "url":"/content/www/us/en/insights/tech.html",
+            "design":{
+              "title":"Design",
+              "id":"cloud:topics/design",
+              "url":"/content/www/us/en/create/topics/design.html",
               "tags":{
 
               }
             },
-            "ui-and-ux-inspiration":{
-              "title":"UI & UX / Inspiration",
-              "id":"insights:industries/B2B",
-              "color":"#bb121a",
-              "url":"/content/www/us/en/insights/b2b.html",
+            "photography":{
+              "title":"Photography",
+              "id":"cloud:topics/photography",
+              "url":"/content/www/us/en/create/topics/photography.html",
               "tags":{
 
               }
             },
-            "video-adobe-live":{
-              "title":"Video / Adobe Live",
-              "id":"insights:industries/health-care",
-              "color":"#bb121a",
-              "url":"/content/www/us/en/insights/healthcare.html",
+            "ui-and-ux":{
+              "title":"UI & UX",
+              "id":"cloud:topics/ui-and-ux",
+              "url":"/content/www/us/en/create/topics/ui-and-ux.html",
               "tags":{
 
               }
             },
-            "illustration-adobe-live":{
-              "title":"Illustration / Adobe Live",
-              "id":"insights:industries/retail",
-              "color":"#bb121a",
-              "url":"/content/www/us/en/insights/retail.html",
+            "video":{
+              "title":"Video",
+              "id":"cloud:topics/video",
+              "url":"/content/www/us/en/create/topics/video.html",
               "tags":{
 
               }
             },
-            "design-inspiration":{
-              "title":"Design / Inspiration",
-              "id":"insights:industries/travel-and-hospitality",
-              "color":"#bb121a",
-              "url":"/content/www/us/en/insights/travel-and-hospitality.html",
-              "tags":{
-
-              }
-            },
-            "design-free-stuff":{
-              "title":"Design / Free stuff",
-              "id":"insights:industries/fsi",
-              "color":"#bb121a",
-              "url":"/content/www/us/en/insights/fsi.html",
+            "illustration":{
+              "title":"Illustration",
+              "id":"cloud:topics/illustration",
+              "url":"/content/www/us/en/create/topics/illustration.html",
               "tags":{
 
               }
             }
           }
         },
-        "collections":{
-          "title":"Collections",
-          "id":"insights:collections",
-          "color":"#7FDBFF",
-          "url":"/content/www/us/en/insights.html",
+        "types":{
+          "title":"Types",
+          "id":"cloud:types",
+          "url":"/content/www/us/en/cloud/types.html",
           "tags":{
-            "experience-design":{
-              "title":"Design / How-to",
-              "id":"insights:collections/experience-design",
-              "color":"#002f99",
-              "url":"/content/www/us/en/insights/design.html",
+            "all-types":{
+              "title":"All types",
+              "id":"cloud:types/all-types",
+              "url":"/content/www/us/en/create/types/all-types.html",
               "tags":{
 
               }
             },
-            "innovation":{
-              "title":"Photography / Inspiration",
-              "id":"insights:collections/innovation",
-              "color":"#006f26",
-              "url":"/content/www/us/en/insights/innovation.html",
+            "how-tos":{
+              "title":"How-tos",
+              "id":"cloud:types/how-tos",
+              "url":"/content/www/us/en/cloud/types/how-tos.html",
               "tags":{
 
               }
             },
-            "perspectives":{
-              "title":"UI & UX / Inspiration",
-              "id":"insights:collections/perspectives",
-              "color":"#39CCCC",
-              "url":"/content/www/us/en/insights/perspectives.html",
+            "live-streams":{
+              "title":"Live streams",
+              "id":"cloud:types/live-streams",
+              "url":"/content/www/us/en/cloud/types/live-streams.html",
               "tags":{
 
               }
             },
-            "data-driven":{
-              "title":"Video / Adobe Live",
-              "id":"insights:collections/data-driven",
-              "color":"#550469",
-              "url":"/content/www/us/en/insights/data-driven.html",
+            "challenges":{
+              "title":"Challenges",
+              "id":"cloud:types/challenges",
+              "url":"/content/www/us/en/cloud/types/perspectives.html",
               "tags":{
 
               }
             },
-            "workforce-productivity":{
-              "title":"Illustration / Adobe Live",
-              "id":"insights:collections/workforce-productivity",
-              "color":"#000000",
-              "url":"/content/www/us/en/insights/workforce-productivity.html",
+            "inspiration":{
+              "title":"Inspiration",
+              "id":"cloud:types/inspiration",
+              "url":"/content/www/us/en/cloud/types/inspiration.html",
               "tags":{
 
               }
             },
-            "advertising":{
-              "title":"Design / Inspiration",
-              "id":"insights:collections/advertising",
-              "color":"#e85700",
-              "url":"/content/www/us/en/insights/advertising.html",
+            "interviews":{
+              "title":"Interviews",
+              "id":"cloud:types/interviews",
+              "url":"/content/www/us/en/cloud/types/interviews.html",
               "tags":{
 
               }
             },
-            "digital-transformation":{
-              "title":"Design / Free stuff",
-              "id":"insights:collections/digital-transformation",
-              "color":"#d80077",
-              "url":"/content/www/us/en/insights/digital-transformation.html",
+            "free-stuff":{
+              "title":"Free stuff",
+              "id":"cloud:types/free-stuff",
+              "url":"/content/www/us/en/cloud/types/free-stuff.html",
               "tags":{
 
               }
             },
-            "cross-channel":{
-              "title":"Design / Free stuff",
-              "id":"insights:collections/cross-channel",
-              "color":"#00939b",
-              "url":"/content/www/us/en/insights/cross-channel.html",
+            "jobs":{
+              "title":"Jobs",
+              "id":"cloud:types/jobs",
+              "url":"/content/www/us/en/cloud/types/jobs.html",
+              "tags":{
+
+              }
+            }
+          }
+        },
+        "skills":{
+          "title":"Skills",
+          "id":"cloud:skills",
+          "url":"/content/www/us/en/cloud/skills.html",
+          "tags":{
+            "all-skill-levels":{
+              "title":"All skill levels",
+              "id":"cloud:skills/all-skill-levels",
+              "url":"/content/www/us/en/create/skills/all-skill-levels.html",
+              "tags":{
+
+              }
+            },
+            "beginner":{
+              "title":"Beginner",
+              "id":"cloud:skills/beginner",
+              "url":"/content/www/us/en/cloud/skills/beginner.html",
+              "tags":{
+
+              }
+            },
+            "intermediate":{
+              "title":"Intermediate",
+              "id":"cloud:skills/intermediate",
+              "url":"/content/www/us/en/cloud/skills/intermediate.html",
+              "tags":{
+
+              }
+            },
+            "advanced":{
+              "title":"Advanced",
+              "id":"cloud:skills/advanced",
+              "url":"/content/www/us/en/cloud/skills/advanced.html",
               "tags":{
 
               }

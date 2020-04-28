@@ -1,325 +1,227 @@
 {
-  "page":5,
+  "page":1,
   "totalPages":16,
   "totalResults":154,
   "sort":"name",
   "cards":[
     {
-      "page":"/content/www/us/en/insights/breathe-new-life-into-the-customer-journey-",
+      "page":"/content/www/us/en/cloud/james-alonsos-design-romance",
       "type":"standard",
       "width":1,
-      "background":"",
-      "imageAlt":"",
-      "article":{
-        "title":"Breathe new life into the customer journey.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/breathe-new-life-into-the-customer-journey-.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/building-the-experience-based-digital-foundation",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/Building%20the%20Experience%20Based%20Digital%20Foundaation%20-%20Reuters.jpg",
-      "imageAlt":"Abstract image of computer screens. ",
-      "primaryTagId":"insights:collections/digital-transformation",
+      "background":"/content/dam/www/us/en/cloud/james-alonsos-design-romance.jpg",
+      "imageAlt":"Design Romance .",
+      "primaryTagId":"cloud:topics/ui-and-ux",
       "tags":[
-        "insights:collections/digital-transformation"
+        "cloud:topics/ui-and-ux",
+        "cloud:types/inspiration"
       ],
       "article":{
-        "title":"Building the experience-based digital foundation.",
+        "title":"James Alonso's Design Romance",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/building-the-experience-based-digital-foundation.html"
-      },
-      "video":{
-        "url":"https://video.tv.adobe.com/v/20649?autoplay=true&quality=9",
-        "policy":"autoplay; fullscreen"
+        "url":"/content/www/us/en/cloud/james-alonsos-design-romance.html"
       }
     },
     {
-      "page":"/content/www/us/en/insights/cdo-role-on-the-rise-as-companies-make-digital-strategy-a-priority",
+      "page":"/content/www/us/en/cloud/descended-from-astronomers-rock",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/experience_design_cdo-roles.jpg",
-      "imageAlt":"Person typing on a tablet. ",
-      "primaryTagId":"insights:collections/experience-design",
+      "background":"/content/dam/www/us/en/cloud/descended-from-astronomers-rock.jpg",
+      "imageAlt":"Descended from astronomers rock",
+      "primaryTagId":"cloud:topics/video",
       "tags":[
-        "insights:collections/experience-design"
+        "cloud:topics/video",
+        "cloud:types/how-tos"
       ],
       "article":{
-        "title":"CDO Roles On The Rise as Companies Make Digital Strategy a Priority.",
+        "title":"Descended from astronomers rock",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/cdo-role-on-the-rise-as-companies-make-digital-strategy-a-priority.html"
+        "url":"/content/www/us/en/cloud/descended-from-astronomers-rock.html"
       }
     },
     {
-      "page":"/content/www/us/en/insights/citizen-data-analytics--give-everyone-a-shot-at-the-action-",
+      "page":"/content/www/us/en/cloud/layer-images-to-create-a-poster",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/citizen-data-analytics--give-everyone-a-shot-at-the-action-/Woman%20looking%20at%20her%20phone.jpg",
-      "imageAlt":"Woman looking at her phone",
-      "article":{
-        "title":"Citizen data analytics: Give everyone a shot at the action.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/citizen-data-analytics--give-everyone-a-shot-at-the-action-.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/spotlight-on-travel-and-hospitality",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/CMO.com%20shines%20the%20spotlight%20on%20travel%20%26%20hospitality.jpg",
-      "imageAlt":"Image that says T&H",
-      "primaryTagId":"insights:industries/travel-and-hospitality",
+      "background":"/content/dam/www/us/en/cloud/layer-images-to-create-a-poster.html",
+      "imageAlt":"Which layers to use... ",
+      "primaryTagId":"cloud:topics/design",
       "tags":[
-        "insights:collections/perspectives",
-        "insights:collections/innovation",
-        "insights:collections/digital-transformation",
-        "insights:industries/travel-and-hospitality"
+        "cloud:topics/design",
+        "cloud:types/how-to"
       ],
       "article":{
-        "title":"CMO.com Shines The Spotlight On Travel & Hospitality.",
+        "title":"Layer Images to Create a Poster",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/spotlight-on-travel-and-hospitality.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/coca-cola-and-adidas-put-design-at-the-centre-of-customer-experiences",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/coca-cola_385x265.jpg",
-      "imageAlt":"Glass of coca cola. ",
-      "primaryTagId":"insights:collections/experience-design",
-      "tags":[
-        "insights:collections/experience-design"
-      ],
-      "article":{
-        "title":"Coca-Cola And Adidas Put Design At The Centre Of Customer Experiences.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/coca-cola-and-adidas-put-design-at-the-centre-of-customer-experiences.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/digital-marketing-in-the-high-tech-industry",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/Competition%20Drives%20Digital%20marketing%20in%20The%20High-Tech%20Industry.jpg",
-      "imageAlt":"Abstract image of a finger.",
-      "primaryTagId":"insights:industries/tech",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/tech"
-      ],
-      "article":{
-        "title":"Competition Drives Digital Marketing In The High-Tech Industry.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/digital-marketing-in-the-high-tech-industry.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/content-for-everyone-how-to-build-fluid-experiences",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/content-for-everyone-how-to-build-fluid-experiences-cropped.jpg",
-      "imageAlt":"Person using a device",
-      "primaryTagId":"insights:collections/cross-channel",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:collections/cross-channel"
-      ],
-      "article":{
-        "title":"Content for everyone: How to build fluid experiences.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/content-for-everyone-how-to-build-fluid-experiences.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/content-management-for-everyone",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/People-in-an-office-cropped.jpg",
-      "imageAlt":"People in an office",
-      "primaryTagId":"insights:collections/digital-transformation",
-      "tags":[
-        "insights:collections/innovation",
-        "insights:collections/digital-transformation"
-      ],
-      "article":{
-        "title":"Content management for everyone.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/content-management-for-everyone.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/powerful-digital-foundation-for-media-and-entertainment",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/Content%20unleashed%20A%20digital%20foundation%20for%20media%20and%20entertainment..jpg",
-      "imageAlt":"People sitting on a couch with bursts of abstract art",
-      "primaryTagId":"insights:industries/media-and-Entertainment",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/media-and-Entertainment"
-      ],
-      "article":{
-        "title":"Content unleashed: A digital foundation for media and entertainment.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/powerful-digital-foundation-for-media-and-entertainment.html"
+        "url":"/content/www/us/en/cloud/layer-images-to-create-a-poster.html"
       }
     }
   ],
   "tags":{
     "insights":{
-      "title":"Insights",
+      "title":"Design",
       "id":"insights",
       "color":"#FF4136",
       "url":"",
       "tags":{
-        "industries":{
-          "title":"Industries",
-          "id":"insights:industries",
-          "color":"#39CCCC",
-          "url":"http://localhost:4502/content/www/us/en/insights.html",
+        "topics":{
+          "title":"Topics",
+          "id":"cloud:topics",
+          "url":"/content/www/us/en/cloud/topics.html",
           "tags":{
-            "media-and-Entertainment":{
-              "title":"Media & Entertainment",
-              "id":"insights:industries/media-and-Entertainment",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/media-entertainment.html",
+            "all-topics":{
+              "title":"All topics",
+              "id":"cloud:topics/all-topics",
+              "url":"/content/www/us/en/create/topics/all-topics.html",
               "tags":{
 
               }
             },
-            "tech":{
-              "title":"Tech",
-              "id":"insights:industries/tech",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/tech.html",
+            "design":{
+              "title":"Design",
+              "id":"cloud:topics/design",
+              "url":"/content/www/us/en/create/topics/design.html",
               "tags":{
 
               }
             },
-            "B2B":{
-              "title":"B2B",
-              "id":"insights:industries/B2B",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/b2b.html",
+            "photography":{
+              "title":"Photography",
+              "id":"cloud:topics/photography",
+              "url":"/content/www/us/en/create/topics/photography.html",
               "tags":{
 
               }
             },
-            "health-care":{
-              "title":"Health Care",
-              "id":"insights:industries/health-care",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/healthcare.html",
+            "ui-and-ux":{
+              "title":"UI & UX",
+              "id":"cloud:topics/ui-and-ux",
+              "url":"/content/www/us/en/create/topics/ui-and-ux.html",
               "tags":{
 
               }
             },
-            "retail":{
-              "title":"Retail",
-              "id":"insights:industries/retail",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/retail.html",
+            "video":{
+              "title":"Video",
+              "id":"cloud:topics/video",
+              "url":"/content/www/us/en/create/topics/video.html",
               "tags":{
 
               }
             },
-            "travel-and-hospitality":{
-              "title":"Travel and hospitality",
-              "id":"insights:industries/travel-and-hospitality",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/travel-and-hospitality.html",
-              "tags":{
-
-              }
-            },
-            "fsi":{
-              "title":"FSI",
-              "id":"insights:industries/fsi",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/fsi.html",
+            "illustration":{
+              "title":"Illustration",
+              "id":"cloud:topics/illustration",
+              "url":"/content/www/us/en/create/topics/illustration.html",
               "tags":{
 
               }
             }
           }
         },
-        "collections":{
-          "title":"Collections",
-          "id":"insights:collections",
-          "color":"#7FDBFF",
-          "url":"http://localhost:4502/content/www/us/en/insights.html",
+        "types":{
+          "title":"Types",
+          "id":"cloud:types",
+          "url":"/content/www/us/en/cloud/types.html",
           "tags":{
-            "experience-design":{
-              "title":"Design",
-              "id":"insights:collections/experience-design",
-              "color":"#002f99",
-              "url":"http://localhost:4502/content/www/us/en/insights/design.html",
+            "all-types":{
+              "title":"All types",
+              "id":"cloud:types/all-types",
+              "url":"/content/www/us/en/create/types/all-types.html",
               "tags":{
 
               }
             },
-            "innovation":{
-              "title":"Innovation",
-              "id":"insights:collections/innovation",
-              "color":"#006f26",
-              "url":"http://localhost:4502/content/www/us/en/insights/innovation.html",
+            "how-tos":{
+              "title":"How-tos",
+              "id":"cloud:types/how-tos",
+              "url":"/content/www/us/en/cloud/types/how-tos.html",
               "tags":{
 
               }
             },
-            "perspectives":{
-              "title":"Perspectives",
-              "id":"insights:collections/perspectives",
-              "color":"#39CCCC",
-              "url":"http://localhost:4502/content/www/us/en/insights/perspectives.html",
+            "live-streams":{
+              "title":"Live streams",
+              "id":"cloud:types/live-streams",
+              "url":"/content/www/us/en/cloud/types/live-streams.html",
               "tags":{
 
               }
             },
-            "data-driven":{
-              "title":"Data Driven",
-              "id":"insights:collections/data-driven",
-              "color":"#550469",
-              "url":"http://localhost:4502/content/www/us/en/insights/data-driven.html",
+            "challenges":{
+              "title":"Challenges",
+              "id":"cloud:types/challenges",
+              "url":"/content/www/us/en/cloud/types/perspectives.html",
               "tags":{
 
               }
             },
-            "workforce-productivity":{
-              "title":"Workforce Productivity",
-              "id":"insights:collections/workforce-productivity",
-              "color":"#000000",
-              "url":"http://localhost:4502/content/www/us/en/insights/workforce-productivity.html",
+            "inspiration":{
+              "title":"Inspiration",
+              "id":"cloud:types/inspiration",
+              "url":"/content/www/us/en/cloud/types/inspiration.html",
               "tags":{
 
               }
             },
-            "advertising":{
-              "title":"Advertising",
-              "id":"insights:collections/advertising",
-              "color":"#e85700",
-              "url":"http://localhost:4502/content/www/us/en/insights/advertising.html",
+            "interviews":{
+              "title":"Interviews",
+              "id":"cloud:types/interviews",
+              "url":"/content/www/us/en/cloud/types/interviews.html",
               "tags":{
 
               }
             },
-            "digital-transformation":{
-              "title":"Digital Transformation",
-              "id":"insights:collections/digital-transformation",
-              "color":"#d80077",
-              "url":"http://localhost:4502/content/www/us/en/insights/digital-transformation.html",
+            "free-stuff":{
+              "title":"Free stuff",
+              "id":"cloud:types/free-stuff",
+              "url":"/content/www/us/en/cloud/types/free-stuff.html",
               "tags":{
 
               }
             },
-            "cross-channel":{
-              "title":"Cross-channel",
-              "id":"insights:collections/cross-channel",
-              "color":"#00939b",
-              "url":"http://localhost:4502/content/www/us/en/insights/cross-channel.html",
+            "jobs":{
+              "title":"Jobs",
+              "id":"cloud:types/jobs",
+              "url":"/content/www/us/en/cloud/types/jobs.html",
+              "tags":{
+
+              }
+            }
+          }
+        },
+        "skills":{
+          "title":"Skills",
+          "id":"cloud:skills",
+          "url":"/content/www/us/en/cloud/skills.html",
+          "tags":{
+            "all-skill-levels":{
+              "title":"All skill levels",
+              "id":"cloud:skills/all-skill-levels",
+              "url":"/content/www/us/en/create/skills/all-skill-levels.html",
+              "tags":{
+
+              }
+            },
+            "beginner":{
+              "title":"Beginner",
+              "id":"cloud:skills/beginner",
+              "url":"/content/www/us/en/cloud/skills/beginner.html",
+              "tags":{
+
+              }
+            },
+            "intermediate":{
+              "title":"Intermediate",
+              "id":"cloud:skills/intermediate",
+              "url":"/content/www/us/en/cloud/skills/intermediate.html",
+              "tags":{
+
+              }
+            },
+            "advanced":{
+              "title":"Advanced",
+              "id":"cloud:skills/advanced",
+              "url":"/content/www/us/en/cloud/skills/advanced.html",
               "tags":{
 
               }

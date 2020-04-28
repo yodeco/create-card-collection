@@ -1,344 +1,227 @@
 {
-  "page":8,
+  "page":1,
   "totalPages":16,
   "totalResults":154,
   "sort":"name",
   "cards":[
     {
-      "page":"/content/www/us/en/insights/four-things-adobe-analytics-does-better-than-anyone",
+      "page":"/content/www/us/en/cloud/james-alonsos-design-romance",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/artistic_digital_visualization_of_a_face.jpg",
-      "imageAlt":"artistic digital visualization of a face",
-      "primaryTagId":"insights:collections/data-driven",
+      "background":"/content/dam/www/us/en/cloud/james-alonsos-design-romance.jpg",
+      "imageAlt":"Design Romance .",
+      "primaryTagId":"cloud:topics/ui-and-ux",
       "tags":[
-        "insights:collections/digital-transformation",
-        "insights:collections/data-driven"
+        "cloud:topics/ui-and-ux",
+        "cloud:types/inspiration"
       ],
       "article":{
-        "title":"Four things Adobe does better than anyone.",
+        "title":"James Alonso's Design Romance",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/four-things-adobe-analytics-does-better-than-anyone.html"
+        "url":"/content/www/us/en/cloud/james-alonsos-design-romance.html"
       }
     },
     {
-      "page":"/content/www/us/en/insights/accelerating-digital-transformation-in-fsi",
+      "page":"/content/www/us/en/cloud/descended-from-astronomers-rock",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/accelerating-digital-transformation-in-fsi/6_fsi_digital_transformation_from_fast_follower_to_digital_pacesetter_1440x500.jpg",
-      "imageAlt":"Abstract image of a person riding a bicycle on a digital wall. ",
-      "primaryTagId":"insights:industries/fsi",
+      "background":"/content/dam/www/us/en/cloud/descended-from-astronomers-rock.jpg",
+      "imageAlt":"Descended from astronomers rock",
+      "primaryTagId":"cloud:topics/video",
       "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/fsi"
+        "cloud:topics/video",
+        "cloud:types/how-tos"
       ],
       "article":{
-        "title":"From fast follower to digital pacesetter.",
+        "title":"Descended from astronomers rock",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/accelerating-digital-transformation-in-fsi.html"
+        "url":"/content/www/us/en/cloud/descended-from-astronomers-rock.html"
       }
     },
     {
-      "page":"/content/www/us/en/insights/ai-faster-deeper-smarter",
+      "page":"/content/www/us/en/cloud/layer-images-to-create-a-poster",
       "type":"standard",
       "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/ai-faster-deeper-smarter-cropped.jpg",
-      "imageAlt":"Speaker icon over the phrase \"Now Playing\"",
-      "primaryTagId":"insights:industries/fsi",
+      "background":"/content/dam/www/us/en/cloud/layer-images-to-create-a-poster.html",
+      "imageAlt":"Which layers to use... ",
+      "primaryTagId":"cloud:topics/design",
       "tags":[
-        "insights:collections/data-driven",
-        "insights:industries/fsi"
+        "cloud:topics/design",
+        "cloud:types/how-to"
       ],
       "article":{
-        "title":"FSI AI: Faster, Deeper, Smarter.",
+        "title":"Layer Images to Create a Poster",
         "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/ai-faster-deeper-smarter.html"
-      },
-      "video":{
-        "url":"https://video.tv.adobe.com/v/21481?autoplay=true&quality=9",
-        "policy":"autoplay; fullscreen"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/biometrics-when-getting-personal-pays-off",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/biometrics-when-getting-personal-pays-off-cropped.jpg",
-      "imageAlt":"Speaker icon over the phrase \"Now Playing\"",
-      "primaryTagId":"insights:industries/fsi",
-      "tags":[
-        "insights:collections/data-driven",
-        "insights:industries/fsi"
-      ],
-      "article":{
-        "title":"FSI: Biometrics: When getting personal pays off.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/biometrics-when-getting-personal-pays-off.html"
-      },
-      "video":{
-        "url":"https://video.tv.adobe.com/v/21482?autoplay=true&quality=9",
-        "policy":"autoplay; fullscreen"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/fsi-mobile-geolocation",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/location_mobile_geolocation.jpg",
-      "imageAlt":"Location, location, mobile geolocation",
-      "primaryTagId":"insights:industries/fsi",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/fsi"
-      ],
-      "article":{
-        "title":"FSI: Location, location, mobile geolocation.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/fsi-mobile-geolocation.html"
-      },
-      "video":{
-        "url":"https://video.tv.adobe.com/v/21483?autoplay=true&quality=9",
-        "policy":"autoplay; fullscreen"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/gartners-ivar-berntz-how-to-ride-the-wave-of-digital-disruption",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/DigitalWaves-385x265.jpg",
-      "imageAlt":"Abstract image of a mountain. ",
-      "primaryTagId":"insights:collections/innovation",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:collections/innovation"
-      ],
-      "article":{
-        "title":"Gartner\u2019s Berntz Tells CIOs And CTOs: Get Ready To Ride The Wave Of Digital Disruption.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/gartners-ivar-berntz-how-to-ride-the-wave-of-digital-disruption.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/email-marketing-from-basic-to-brilliantly-personalized",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/delivering_an_experience.jpg",
-      "imageAlt":"Delivering an experience",
-      "primaryTagId":"insights:collections/data-driven",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:collections/data-driven"
-      ],
-      "article":{
-        "title":"Get out of your email marketing rut.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/email-marketing-from-basic-to-brilliantly-personalized.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/great-digital-experiences-breed-great-customer-loyalty",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/Econsultancy%202017%20Digital%20Trends%20Tech%20report.jpg",
-      "imageAlt":"Marquee image - purple globe",
-      "primaryTagId":"insights:industries/tech",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/tech"
-      ],
-      "article":{
-        "title":"Great experiences breed great loyalty.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/great-digital-experiences-breed-great-customer-loyalty.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/healthcare-makes-its-move-to-improve-patient-experience",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/rsz_screen_shot_2018-02-27_at_40443_pm.jpg",
-      "imageAlt":"Doctors meeting in front of an elevator",
-      "primaryTagId":"insights:industries/health-care",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:industries/health-care"
-      ],
-      "article":{
-        "title":"Healthcare makes its move to improve patient experience.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/healthcare-makes-its-move-to-improve-patient-experience.html"
-      }
-    },
-    {
-      "page":"/content/www/us/en/insights/measuring-customer-experience",
-      "type":"standard",
-      "width":1,
-      "background":"/content/dam/www/us/en/insights/cropped_images/rsz0062539enexperienceindexinsightsarticlemarquee.jpg",
-      "imageAlt":" blue orbs experience insight",
-      "primaryTagId":"insights:collections/data-driven",
-      "tags":[
-        "insights:collections/digital-transformation",
-        "insights:collections/data-driven"
-      ],
-      "article":{
-        "title":"Helping businesses measure experience.",
-        "author":"",
-        "url":"http://localhost:4502/content/www/us/en/insights/measuring-customer-experience.html"
+        "url":"/content/www/us/en/cloud/layer-images-to-create-a-poster.html"
       }
     }
   ],
   "tags":{
     "insights":{
-      "title":"Insights",
+      "title":"Design",
       "id":"insights",
       "color":"#FF4136",
       "url":"",
       "tags":{
-        "industries":{
-          "title":"Industries",
-          "id":"insights:industries",
-          "color":"#39CCCC",
-          "url":"http://localhost:4502/content/www/us/en/insights.html",
+        "topics":{
+          "title":"Topics",
+          "id":"cloud:topics",
+          "url":"/content/www/us/en/cloud/topics.html",
           "tags":{
-            "media-and-Entertainment":{
-              "title":"Media & Entertainment",
-              "id":"insights:industries/media-and-Entertainment",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/media-entertainment.html",
+            "all-topics":{
+              "title":"All topics",
+              "id":"cloud:topics/all-topics",
+              "url":"/content/www/us/en/create/topics/all-topics.html",
               "tags":{
 
               }
             },
-            "tech":{
-              "title":"Tech",
-              "id":"insights:industries/tech",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/tech.html",
+            "design":{
+              "title":"Design",
+              "id":"cloud:topics/design",
+              "url":"/content/www/us/en/create/topics/design.html",
               "tags":{
 
               }
             },
-            "B2B":{
-              "title":"B2B",
-              "id":"insights:industries/B2B",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/b2b.html",
+            "photography":{
+              "title":"Photography",
+              "id":"cloud:topics/photography",
+              "url":"/content/www/us/en/create/topics/photography.html",
               "tags":{
 
               }
             },
-            "health-care":{
-              "title":"Health Care",
-              "id":"insights:industries/health-care",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/healthcare.html",
+            "ui-and-ux":{
+              "title":"UI & UX",
+              "id":"cloud:topics/ui-and-ux",
+              "url":"/content/www/us/en/create/topics/ui-and-ux.html",
               "tags":{
 
               }
             },
-            "retail":{
-              "title":"Retail",
-              "id":"insights:industries/retail",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/retail.html",
+            "video":{
+              "title":"Video",
+              "id":"cloud:topics/video",
+              "url":"/content/www/us/en/create/topics/video.html",
               "tags":{
 
               }
             },
-            "travel-and-hospitality":{
-              "title":"Travel and hospitality",
-              "id":"insights:industries/travel-and-hospitality",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/travel-and-hospitality.html",
-              "tags":{
-
-              }
-            },
-            "fsi":{
-              "title":"FSI",
-              "id":"insights:industries/fsi",
-              "color":"#bb121a",
-              "url":"http://localhost:4502/content/www/us/en/insights/fsi.html",
+            "illustration":{
+              "title":"Illustration",
+              "id":"cloud:topics/illustration",
+              "url":"/content/www/us/en/create/topics/illustration.html",
               "tags":{
 
               }
             }
           }
         },
-        "collections":{
-          "title":"Collections",
-          "id":"insights:collections",
-          "color":"#7FDBFF",
-          "url":"http://localhost:4502/content/www/us/en/insights.html",
+        "types":{
+          "title":"Types",
+          "id":"cloud:types",
+          "url":"/content/www/us/en/cloud/types.html",
           "tags":{
-            "experience-design":{
-              "title":"Design",
-              "id":"insights:collections/experience-design",
-              "color":"#002f99",
-              "url":"http://localhost:4502/content/www/us/en/insights/design.html",
+            "all-types":{
+              "title":"All types",
+              "id":"cloud:types/all-types",
+              "url":"/content/www/us/en/create/types/all-types.html",
               "tags":{
 
               }
             },
-            "innovation":{
-              "title":"Innovation",
-              "id":"insights:collections/innovation",
-              "color":"#006f26",
-              "url":"http://localhost:4502/content/www/us/en/insights/innovation.html",
+            "how-tos":{
+              "title":"How-tos",
+              "id":"cloud:types/how-tos",
+              "url":"/content/www/us/en/cloud/types/how-tos.html",
               "tags":{
 
               }
             },
-            "perspectives":{
-              "title":"Perspectives",
-              "id":"insights:collections/perspectives",
-              "color":"#39CCCC",
-              "url":"http://localhost:4502/content/www/us/en/insights/perspectives.html",
+            "live-streams":{
+              "title":"Live streams",
+              "id":"cloud:types/live-streams",
+              "url":"/content/www/us/en/cloud/types/live-streams.html",
               "tags":{
 
               }
             },
-            "data-driven":{
-              "title":"Data Driven",
-              "id":"insights:collections/data-driven",
-              "color":"#550469",
-              "url":"http://localhost:4502/content/www/us/en/insights/data-driven.html",
+            "challenges":{
+              "title":"Challenges",
+              "id":"cloud:types/challenges",
+              "url":"/content/www/us/en/cloud/types/perspectives.html",
               "tags":{
 
               }
             },
-            "workforce-productivity":{
-              "title":"Workforce Productivity",
-              "id":"insights:collections/workforce-productivity",
-              "color":"#000000",
-              "url":"http://localhost:4502/content/www/us/en/insights/workforce-productivity.html",
+            "inspiration":{
+              "title":"Inspiration",
+              "id":"cloud:types/inspiration",
+              "url":"/content/www/us/en/cloud/types/inspiration.html",
               "tags":{
 
               }
             },
-            "advertising":{
-              "title":"Advertising",
-              "id":"insights:collections/advertising",
-              "color":"#e85700",
-              "url":"http://localhost:4502/content/www/us/en/insights/advertising.html",
+            "interviews":{
+              "title":"Interviews",
+              "id":"cloud:types/interviews",
+              "url":"/content/www/us/en/cloud/types/interviews.html",
               "tags":{
 
               }
             },
-            "digital-transformation":{
-              "title":"Digital Transformation",
-              "id":"insights:collections/digital-transformation",
-              "color":"#d80077",
-              "url":"http://localhost:4502/content/www/us/en/insights/digital-transformation.html",
+            "free-stuff":{
+              "title":"Free stuff",
+              "id":"cloud:types/free-stuff",
+              "url":"/content/www/us/en/cloud/types/free-stuff.html",
               "tags":{
 
               }
             },
-            "cross-channel":{
-              "title":"Cross-channel",
-              "id":"insights:collections/cross-channel",
-              "color":"#00939b",
-              "url":"http://localhost:4502/content/www/us/en/insights/cross-channel.html",
+            "jobs":{
+              "title":"Jobs",
+              "id":"cloud:types/jobs",
+              "url":"/content/www/us/en/cloud/types/jobs.html",
+              "tags":{
+
+              }
+            }
+          }
+        },
+        "skills":{
+          "title":"Skills",
+          "id":"cloud:skills",
+          "url":"/content/www/us/en/cloud/skills.html",
+          "tags":{
+            "all-skill-levels":{
+              "title":"All skill levels",
+              "id":"cloud:skills/all-skill-levels",
+              "url":"/content/www/us/en/create/skills/all-skill-levels.html",
+              "tags":{
+
+              }
+            },
+            "beginner":{
+              "title":"Beginner",
+              "id":"cloud:skills/beginner",
+              "url":"/content/www/us/en/cloud/skills/beginner.html",
+              "tags":{
+
+              }
+            },
+            "intermediate":{
+              "title":"Intermediate",
+              "id":"cloud:skills/intermediate",
+              "url":"/content/www/us/en/cloud/skills/intermediate.html",
+              "tags":{
+
+              }
+            },
+            "advanced":{
+              "title":"Advanced",
+              "id":"cloud:skills/advanced",
+              "url":"/content/www/us/en/cloud/skills/advanced.html",
               "tags":{
 
               }

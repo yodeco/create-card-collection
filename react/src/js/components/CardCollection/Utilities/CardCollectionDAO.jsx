@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default class CardCollectionDAO {
     static SORT_BY_NAME = 'name';
     static SORT_BY_POPULAR = 'popular';
@@ -27,6 +28,26 @@ export default class CardCollectionDAO {
         this.page = page;
     }
 
+    static shuffle(array) {
+        let currentIndex = array.length,
+            temporaryValue,
+            randomIndex;
+
+        // While there remain elements to shuffle...
+        while (currentIndex !== 0) {
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
     /**
      * Get JSON data from the server with provided parameters
      *
@@ -34,15 +55,21 @@ export default class CardCollectionDAO {
      * @memberof CardCollectionDAO
      */
     getData() {
-        let fetchStr = `${this.endpoint}.collection.json/sort-${this.sort}/`;
-        if (this.activeFilters.length !== 0) {
-            const filterStr = this.activeFilters.join('/');
-            fetchStr += `${filterStr}/`;
-        }
-        fetchStr += `results-${this.results}.${this.page}.json`;
-        const responsePromise = fetch(fetchStr, { credentials: 'same-origin' })
-            .then(response => response.json());
-        return responsePromise;
+        // let fetchStr = `${this.endpoint}.collection.json/sort-${this.sort}/`;
+        // if (this.activeFilters.length !== 0) {
+        //     const filterStr = this.activeFilters.join('/');
+        //     fetchStr += `${filterStr}/`;
+        // }
+        // fetchStr += `results-${this.results}.${this.page}.json`;
+        // const responsePromise = fetch(fetchStr, { credentials: 'same-origin' })
+        //     .then(response => response.json());
+        const cardCollectionMock = window.cardCollectionMock;
+        CardCollectionDAO.shuffle(cardCollectionMock.cards);
+        return new Promise(((resolve) => {
+            setTimeout(() => {
+                resolve(cardCollectionMock);
+            }, 1000);
+        }));
     }
 
     /**
