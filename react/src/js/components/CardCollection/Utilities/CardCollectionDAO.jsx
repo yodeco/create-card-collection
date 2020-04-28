@@ -55,21 +55,22 @@ export default class CardCollectionDAO {
      * @memberof CardCollectionDAO
      */
     getData() {
-        // let fetchStr = `${this.endpoint}.collection.json/sort-${this.sort}/`;
-        // if (this.activeFilters.length !== 0) {
-        //     const filterStr = this.activeFilters.join('/');
-        //     fetchStr += `${filterStr}/`;
-        // }
-        // fetchStr += `results-${this.results}.${this.page}.json`;
-        // const responsePromise = fetch(fetchStr, { credentials: 'same-origin' })
-        //     .then(response => response.json());
-        const cardCollectionMock = window.cardCollectionMock;
-        CardCollectionDAO.shuffle(cardCollectionMock.cards);
-        return new Promise(((resolve) => {
-            setTimeout(() => {
-                resolve(cardCollectionMock);
-            }, 1000);
-        }));
+        let fetchStr = `${this.endpoint}.collection.json/sort-${this.sort}/`;
+        if (this.activeFilters.length !== 0) {
+            const filterStr = this.activeFilters.join('/');
+            fetchStr += `${filterStr}/`;
+        }
+        fetchStr += `results-${this.results}.${this.page}.json`;
+        const responsePromise = fetch(fetchStr, { credentials: 'same-origin' })
+            .then(response => response.json());
+        return responsePromise;
+        // const cardCollectionMock = window.cardCollectionMock;
+        // CardCollectionDAO.shuffle(cardCollectionMock.cards);
+        // return new Promise(((resolve) => {
+        //     setTimeout(() => {
+        //         resolve(cardCollectionMock);
+        //     }, 1000);
+        // }));
     }
 
     /**
